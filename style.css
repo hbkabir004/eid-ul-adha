@@ -12,8 +12,10 @@ h1 {
   overflow: hidden;
 }
 
-.top-banner-description {
+.white-font {
   color: white;
+}
+.half-width {
   margin: 10%;
   text-align: left;
   width: 50%;
@@ -30,4 +32,23 @@ h1 {
   margin: 4px 2px;
   cursor: pointer;
   font-weight: bold;
+}
+
+.paragraph {
+  width: 50%;
+}
+
+.flexible-container {
+  display: flex;
+  /* justify-content: space-between; */
+}
+.media-container {
+  height: 100%;
+  margin-top: 3.5%;
+}
+.third-section {
+  width: 50%;
+  height: 100%;
+  margin-left: 9.5%;
+  margin-bottom: 5%;
 }
